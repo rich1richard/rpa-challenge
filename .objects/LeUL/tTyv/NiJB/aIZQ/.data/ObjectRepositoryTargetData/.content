@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="VYaET8hZo0mF4ZYNw-nWeA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="finance.yahoo.com" CVScreenId="9328ab10-81be-4aae-901b-967f621ecd1b" CvElementArea="965, 189, 61, 35" CvType="Button" DesignTimeRectangle="968, 191, 57, 32" ElementType="Button" FullSelectorArgument="&lt;webctrl id='ybar-search' tag='BUTTON' /&gt;" Guid="4671f784-f137-4404-bb0e-1ac217c6a2e2" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo Finance - Stock Market Live, Quotes, Business &amp;amp; Finance News' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="52845a9be9c828d48a88255bc5597671.png" xmlns="">0kbn3f_rxUEiuDvUW0yP-eg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

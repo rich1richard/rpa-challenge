@@ -1,0 +1,17 @@
+﻿{
+  "Name": "result_menu",
+  "Type": "Element",
+  "TaxonomyType": "Element",
+  "Id": "aXshxspmvk6qje9-_M0B4Q",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/aXshxspmvk6qje9-_M0B4Q",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/Ejt_fpPRZ0-PuvaEeEJA7g",
+  "Created": "2025-08-07T09:50:18.0537263Z",
+  "Updated": "2025-08-07T09:51:11.4907171Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

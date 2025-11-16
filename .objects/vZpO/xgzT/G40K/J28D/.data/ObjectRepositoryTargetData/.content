@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="fNXWegQeIESwbGTQpiX26A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="rpachallenge.com" CVScreenId="7ca5bef1-5802-4931-b185-7b47aad1e168" CvTextArea="78, 665, 189, 12" CvTextArgument="DOWNLOAD EXCEL ." CvType="Text" DesignTimeRectangle="17, 658, 263, 29" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname=' Download Excel cloud_download' tag='A' /&gt;" Guid="4ba827cd-dec5-4896-b8b2-5d8e7d15427f" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Rpa Challenge' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="7ca5bef1-5802-4931-b185-7b47aad1e168" CvTextArea="78, 665, 114, 12" CvTextArgument="DOWNLOAD EXCEL" CvType="Text" DesignTimeRectangle="78, 665, 114, 12" ElementType="Text" Guid="29bcf8e5-41d3-4f0e-9d21-727cd1ea63c4" SearchSteps="CV" TargetType="ComputerVisionBased" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f5724f9a7fb7843890b01a3b16aac318.png" xmlns="">0sz6zxUe2NkKpiPgZpvYvmg</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

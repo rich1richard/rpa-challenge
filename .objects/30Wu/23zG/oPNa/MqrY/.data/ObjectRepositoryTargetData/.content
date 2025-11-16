@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="P1hhluiLXkC1AX8Dk06EfA" Reference="aGeB0F235EyAKE6OUYFU6Q/MqrYT1rslUm_WHdNzjpRtQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="1684ec61-262a-40ce-9e53-9feae6ebfe20" CvElementArea="144, 42, 514, 32" CvType="InputBox" DesignTimeRectangle="145, 42, 513, 32" ElementType="InputBox" Guid="db873528-76e4-415b-9e8b-826feee88773" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='#32770' title='Save As' /&gt;" SearchSteps="CV" TargetType="ComputerVisionBased" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="8627d730-facd-47e3-9da5-ab160cd1ae0a" CvTextArea="168, 52, 307, 13" CvTextArgument="\rmouelle\OneDrive - 2C Conseil\Documents\UiPath\RPA" CvType="Text" DesignTimeRectangle="144, 31, 583, 52" FuzzySelectorArgument="&lt;wnd ctrlid='41477' matching:ctrlid='fuzzy' fuzzylevel:ctrlid='0.0' check:text='C:\Users\rmouelle\OneDrive - 2C Conseil\Documents\UiPath\RPA Challenge\sequences\libre_office' /&gt;" Guid="202ec76c-2e8e-43f5-b18f-19cf2d9e97d2" SearchSteps="FuzzySelector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="710e7bed5c418486806460889bf66cbb.png" xmlns="">0ZoFR945XYkmy_H7-F7CLUw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

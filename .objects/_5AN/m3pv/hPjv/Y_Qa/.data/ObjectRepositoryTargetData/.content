@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="8EqAv9LZd0GM2Jm8xJvr_w" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/first-automation" CVScreenId="62b83b9f-3061-4dd9-b6e7-645bd2a4a7da" CvElementArea="850, 402, 105, 30" CvTextArea="888, 412, 28, 11" CvTextArgument="Send" CvType="Button" DesignTimeRectangle="850, 403, 104, 29" ElementType="Button" FullSelectorArgument="&lt;webctrl id='send-email' tag='BUTTON' /&gt;" Guid="346b946d-dd8d-444d-8af6-78c2b187e424" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="71e827af4c2410d01451e45c38785bca.png" xmlns="">0IXjfLrHcvUq3v11iH7Gm6Q</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

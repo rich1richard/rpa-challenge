@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="v4N_hMwBZ02gLS7yQjUfNg" Reference="aGeB0F235EyAKE6OUYFU6Q/0jZtXPId6kaL04F4sj3P2A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="https://www.ebay.com/b/Cell-Phones-Smartphones/9355/bn_320094?_pgn=3&amp;rt=nc" ContentHash="tyrZHMuOvkyxD7UKX0BokQ" DesignTimeRectangle="579, 506, 958, 6983" DesignTimeScaleFactor="0.800000011920929" ElementType="List" FullSelectorArgument="&lt;webctrl css-selector='body&amp;gt;div&amp;gt;div&amp;gt;section&amp;gt;section&amp;gt;ul' tag='UL' /&gt;" Guid="bb808c8d-2a5f-4405-96fe-2fcddca465b1" Reference="aGeB0F235EyAKE6OUYFU6Q/0jZtXPId6kaL04F4sj3P2A" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='9527ebay#{&amp;quot;parentId&amp;quot;:&amp;quot;d2e9fa4d-4ea5-4bb7-ab16-8430170e01b0&amp;quot;,&amp;quot;parentPage&amp;quot;:&amp;quot;4384412&amp;quot;,&amp;quot;screenId&amp;quot;:&amp;quot;dfe2ac23-f7d5-4f65-a322-9b4ea9d2e160&amp;quot;}' title='Cell Phones &amp;amp; Smartphones for Sale - Buy New &amp;amp; Used Phones - eBay' /&gt;" SearchSteps="Selector" Version="V6" Visibility="Interactive">
+      <imageRef attrName="InformativeScreenshot" originalValue="9c5baf1e3a3507c893b7c61bd838c11b.png" xmlns="">0egIWoJ6ljEif4-XHJtwj1A</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">ExtractData</x:String>
+    <p:InArgument x:TypeArguments="x:String" x:Key="ExtractDataSettings" xml:space="preserve">&lt;Table xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xsd='http://www.w3.org/2001/XMLSchema' Type='Structured' AddCvHeader='true' IsScrollEnabled='false'&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column0' Name='Name'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column1' Name='Url'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;true&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;true&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column2' Name='Price'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column7' Name='Precision'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column9' Name='Shipping'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataColumn' ReferenceName='Column11' Name='Previous Price'&gt;
+		&lt;IsValidName&gt;true&lt;/IsValidName&gt;
+		&lt;ValidationErrorMessage /&gt;
+		&lt;IsExtra&gt;false&lt;/IsExtra&gt;
+		&lt;CanExtractSimilar&gt;false&lt;/CanExtractSimilar&gt;
+		&lt;Format xsi:type='TextColumnFormat' /&gt;
+	&lt;/Column&gt;
+	&lt;Column xsi:type='DataNextLink' /&gt;
+&lt;/Table&gt;</p:InArgument>
+    <TargetAnchorable x:Key="NextLinkTarget" BrowserURL="ebay.com/b/Cell-Phones-Smartphones/9355/bn_320094" CVScreenId="740b975b-2fba-4ab6-8b75-233cece2ad92" CvElementArea="1144, 457, 35, 32" CvType="Icon" DesignTimeRectangle="1146, 458, 32, 32" DesignTimeScaleFactor="0.800000011920929" FullSelectorArgument="&lt;webctrl tag='A' type='next' /&gt;" FuzzySelectorArgument="&lt;webctrl tag='A' type='next' class='pagination__next icon-link' aaname='' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="58c2700f-4e92-4344-87ef-0404d9769af9" ImageBase64="iVBORw0KGgoAAAANSUhEUgAAACQAAAAkCAYAAADhAJiYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAGYSURBVFhHzZhdqoMwEIW7DdcgFH2qy/BV8KW7tlAQitjiBmz96ZQjKGkSNcbm3jlwQGKS+cyM8edAzHSQG/5bm4He7zd1XUdN09Dr9aLn80l1XQ/GMdpwDn3Qd6uMgfq+HwKJAGtGX4zBWFOtAuEq27bdBCIbYzGHyYotAuHKkAI5gK0x19pqzQKhBn4JMxpzYu45aYFwFXtStGbMPbdSChDy7GJlZCOGrqYUIBSfPNiVEUvWF5DrVMnWpe4LCHuGPMi1EVPUBIR82qzO/X6nqqqUdlMjplhLExBuRbmzic/nMwVBQJfLRTlnanEbmIBs05VlGR2PRwrDkK7Xq3LexGLaJqA9t/peKMRWgGzqRzSgfN+3gkJsBUjupHNZlpSmKcVxrPXpdCLP8waox+OhjF+yE6AoiiagoiiU8UtWgH6RMts60qaMXVGzu+1tN8YkSdxsjLaPjjzP6Xa7Ke2mnn10QLZp2+PZhyvE7vUDYvWCBrF7hYVcp06XqlFaIIjVZ9AoVh+Ko1h9Soti87NBFpvfMX8ldkAfqHiNPC9JJo8AAAAASUVORK5CYII=" ScopeSelectorArgument="&lt;html app='chrome.exe' htmlwindowname='9527ebay#{&amp;quot;parentId&amp;quot;:&amp;quot;d2e9fa4d-4ea5-4bb7-ab16-8430170e01b0&amp;quot;,&amp;quot;parentPage&amp;quot;:&amp;quot;4384412&amp;quot;,&amp;quot;screenId&amp;quot;:&amp;quot;dfe2ac23-f7d5-4f65-a322-9b4ea9d2e160&amp;quot;}' title='Cell Phones &amp;amp; Smartphones for Sale - Buy New &amp;amp; Used Phones - eBay' /&gt;" SearchSteps="Selector, Image, CV" Version="V6" Visibility="Interactive">
+      <TargetAnchorable.PointOffset>
+        <PointOffset />
+      </TargetAnchorable.PointOffset>
+    </TargetAnchorable>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

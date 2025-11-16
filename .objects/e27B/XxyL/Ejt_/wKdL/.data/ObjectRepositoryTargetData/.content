@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="bWRvbzyjM0eO-C9ZCgT8Iw" Reference="aGeB0F235EyAKE6OUYFU6Q/wKdLlH5dX0u8PCAjs3EdkQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/results" CVScreenId="8dcde8b1-ae08-4986-93db-1ab0de60abd6" CvElementArea="1522, 275, 145, 73" CvTextArea="1568, 293, 68, 13" CvTextArgument="Add to queue" CvType="Button" DesignTimeRectangle="8, 181, 0, 0" FullSelectorArgument="&lt;webctrl parentid='items' tag='YT-FORMATTED-STRING' /&gt;" Guid="9ccc1189-55e3-4c5d-ac9f-1cdd12b04643" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='* - YouTube' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="28e50cd3984534df0244fe8ad0aa0033.png" xmlns="">0-KVJ-I8VAkmgiVM6GRmDdw</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

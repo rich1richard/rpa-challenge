@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Add to queue",
+  "Type": "Element",
+  "Id": "wKdLlH5dX0u8PCAjs3EdkQ",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/wKdLlH5dX0u8PCAjs3EdkQ",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/Ejt_fpPRZ0-PuvaEeEJA7g",
+  "Created": "2025-08-07T09:51:49.5893708Z",
+  "Updated": "2025-08-07T09:51:49.5893708Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

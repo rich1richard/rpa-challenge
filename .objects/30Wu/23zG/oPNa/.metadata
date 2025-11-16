@@ -1,0 +1,16 @@
+﻿{
+  "Name": "LibreOffice Writer",
+  "Type": "Screen",
+  "Id": "oPNaAPrL3kW2IySWwR-2_g",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/oPNaAPrL3kW2IySWwR-2_g",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/23zGrZSQxkWJZBIEdazLAw",
+  "Created": "2025-08-04T09:26:40.40365Z",
+  "Updated": "2025-08-04T09:27:11.4523442Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

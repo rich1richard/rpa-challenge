@@ -1,0 +1,13 @@
+﻿{
+  "Name": "LABEL value",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "ZzKcNJjdvUy6RarvU2jsVw",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/ZzKcNJjdvUy6RarvU2jsVw",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/NiJBJWbOmEaBK1Y8TVucgQ",
+  "Created": "2025-06-05T14:28:52.0056234Z",
+  "Updated": "2025-06-05T14:28:52.0056234Z",
+  "CreatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

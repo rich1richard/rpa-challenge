@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="f20GZ3YPFUay4Q3NjWqLCA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com" CVScreenId="7375fc29-4e13-4145-a80c-35b44ff3a36b" CvElementArea="559, 547, 164, 41" CvTextArea="621, 560, 53, 13" CvTextArgument="Invoices" CvType="Button" DesignTimeRectangle="561, 549, 160, 38" ElementType="Button" FullSelectorArgument="&lt;webctrl aaname='                  Invoices' parentid='dashmenu' tag='BUTTON' /&gt;" Guid="ac5c3746-c4ff-4d4e-b6d4-935954eff491" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Dashboard' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="61c99e7efc757ebcc10b0df8031c94d9.png" xmlns="">0QuHzPiB2BEOPgM6H8LOY6w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Hover</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

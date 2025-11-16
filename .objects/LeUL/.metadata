@@ -1,0 +1,15 @@
+﻿{
+  "Name": "Chrome Yahoo Finance - Stock Market",
+  "Type": "App",
+  "Id": "LeUL_fQQk0uoyrrFBwAj-Q",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/LeUL_fQQk0uoyrrFBwAj-Q",
+  "Created": "2025-06-05T12:42:37.244274Z",
+  "Updated": "2025-06-05T14:28:51.8499313Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

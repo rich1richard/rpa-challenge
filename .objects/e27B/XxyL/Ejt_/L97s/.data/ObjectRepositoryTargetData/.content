@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="Z_olHClMUUuhTvLT0D8bRg" Reference="aGeB0F235EyAKE6OUYFU6Q/L97sxIS2KEe2rTvSm8OhNg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com" CVScreenId="53b63e96-7503-472b-b38b-adf191b5eebd" CvElementArea="705, 133, 475, 35" CvType="InputBox" DesignTimeRectangle="720, 194, 453, 19" ElementType="InputBox" FullSelectorArgument="&lt;webctrl tag='INPUT' /&gt;" Guid="3f19bb91-434c-4e94-9591-86ee33a500bc" ImageBase64="" ScopeSelectorArgument="&lt;html app='chrome.exe' title='*YouTube' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target DesignTimeRectangle="706, 187, 471, 32" ElementType="InputBox" FullSelectorArgument="&lt;webctrl parentid='center' tag='DIV' /&gt;" Guid="a35cf010-f815-4d60-9d30-2adb5f6d035d" SearchSteps="Selector" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="f0948a58b663c923d03c0cd082a8dc5a.png" xmlns="">0ABqTxIwv5EaQQE4W1QOI2w</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

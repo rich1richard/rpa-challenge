@@ -1,0 +1,16 @@
+﻿{
+  "Name": "Chrome Youtube",
+  "Type": "Screen",
+  "Id": "J3p9d6FF2U-y3ejTqInxjw",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/J3p9d6FF2U-y3ejTqInxjw",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/hC5rD1_sGk2kO9Uxaolo8g",
+  "Created": "2025-08-05T09:30:22.6250969Z",
+  "Updated": "2025-08-05T09:31:12.4890941Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

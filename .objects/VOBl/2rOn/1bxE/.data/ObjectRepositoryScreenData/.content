@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="Rx0fXrGOz0SgRnyUhmabRw" Reference="aGeB0F235EyAKE6OUYFU6Q/1bxElTLvzkGsDASQ3qrWfw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="1998, 78, 626, 629" ContentHash="tSokih6svk2xKHF0Z_QCJg" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAJGSURBVFhH7ZfbThNRGIV71fPBtryCXBpfS9R6aO0BFKsIKh5auGjilUmfQ5BCQcqpthS1gpj4GL1Z5t8zezr8PzudC01JYCdfOpmL9a2156o+39W59KdUyFZKhRzGQ7biky//Pc1m89xfQhUYDAZj4eIVqNfrqNVqCnrW729+/IOJ5d+YWD5FeukU6eovpKsnSFeIY6TeHyP17idSb4k+km/6uPHhZGSuKGAivUTCoVQJHWnfkSYXvyP5egjP4XgvcO7KH0guErbw1TdcI14eKRILPZHDEQVMV6WXWisN0oUjJOYPLV4Q3ZG5ooCJ4dVqoZb2XMJDJOa6SMx1EH/eQfzZV5HD8VxguLJnMd9zCbtKmFDSDuLlNmJPiQORwxEFTFfFrzbuWqlwpG3EZg8Qe7KvGJUrCphwLxVSEs7uK6KP92x2EZ3ZFTkczwUcYbmNuCPVS/eUTBOZ3kGktINIsSVyOKKA6arcS6MkpJVaqoQti2ILkcI2wvkvCi7kiAImaKm+1ui0XmkLldQShvNbCD/aQji3qeA5HM8FaOWZpbRSS0loE8o2EXpIbCh4DkcUMH2CSNESOku1NLeJUJawpQ82ELy/bnGvIYQcUcCElobsq3WESqqFljSYWUPgLvFZ5HC8FyCxLQ3SSkfaQCCzhmCmoYSKO6sI3F5FYGpF5HBEAdMnUFfLpEqshFq6Av8U8Qn+WxZcyBEFTEyWt62VmbMr/Uo6FLq5PtMUORzPBf4XF6NAMZ+t0sM4KOZzVf434epcvvMXRK9ReqByx4IAAAAASUVORK5CYII=" Reference="aGeB0F235EyAKE6OUYFU6Q/1bxElTLvzkGsDASQ3qrWfw" Selector="&lt;wnd app='doubleui.exe' cls='HwndWrapper*' title='DoubleUI' /&gt;" Version="V2">
+      <TargetApp.FilePath>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">doubleUiApp</p:CSharpValue>
+        </p:InArgument>
+      </TargetApp.FilePath>
+      <imageRef attrName="InformativeScreenshot" originalValue="d31e33e8c399884c30f0e7e10e180bd0.png" xmlns="">031PTX-gZhkawrJIWiRfECg</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="doubleUiApp" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

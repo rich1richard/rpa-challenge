@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Chrome Yahoo Finance - Stock Market Live, Quo",
+  "Type": "Screen",
+  "Id": "NiJBJWbOmEaBK1Y8TVucgQ",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/NiJBJWbOmEaBK1Y8TVucgQ",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/tTyvdkfaXkCUNfr1p3gL9w",
+  "Created": "2025-06-05T12:42:37.2789457Z",
+  "Updated": "2025-06-05T12:42:37.2789457Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

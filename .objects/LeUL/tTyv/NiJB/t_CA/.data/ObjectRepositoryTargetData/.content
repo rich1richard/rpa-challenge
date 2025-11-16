@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="inIpkrpvEkO_qq9ln46X2A" Reference="aGeB0F235EyAKE6OUYFU6Q/t_CAKApV7UKPxwtha-RO-A" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="finance.yahoo.com" CVScreenId="2f58b43c-de8f-452e-a9bd-b2d9701d3122" CvTextArea="500, 200, 230, 15" CvTextArgument="Search for news, symbols or companies" CvType="Text" DesignTimeRectangle="482, 191, 543, 32" ElementType="InputBox" FuzzySelectorArgument="&lt;webctrl id='ybar-sbq' tag='INPUT' type='text' class='_yb_d7nywr _yb_owcm9n  _yb_ikgg1k finsrch-inpt ' placeholder='Search for news, symbols or companies' aaname='Search query' matching:id='fuzzy' fuzzylevel:id='0.0' matching:class='fuzzy' fuzzylevel:class='0.0' matching:aaname='fuzzy' fuzzylevel:aaname='0.0' /&gt;" Guid="52faf6c2-0f65-469f-96f1-4cb48d2b2542" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Yahoo Finance - Stock Market Live, Quotes, Business &amp;amp; Finance News' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="7e1c03b09edcec12ceb36cd83d2beb4b.png" xmlns="">0slNCRRamRUClkXtjBVx3iA</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">TypeInto</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

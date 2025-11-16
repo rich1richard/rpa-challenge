@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryScreenData ContentHash="_hUXStaVTUaqt2JSEkBG6g" Reference="aGeB0F235EyAKE6OUYFU6Q/oPNaAPrL3kW2IySWwR-2_g" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:p="http://schemas.microsoft.com/netfx/2009/xaml/activities" xmlns:sap2010="http://schemas.microsoft.com/netfx/2010/xaml/activities/presentation" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryScreenData.Data>
+    <TargetApp x:Key="TargetApp" Area="982, 11, 931, 1009" ContentHash="JHtNvBJ4u0KgN3XBkwljMQ" IconBase64="iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAFPSURBVFhH7Ze9agJBEMd9jjW96XwE3yJFniJYJ1W4QDobm5TpbNQikBcIJFplt5JgI2JxcOIHSeE1K3Mh5pzdPWcW90Cw+HEf7P3ntzPbXEVrXckjHtSliGRfRHItIqmpNIfzN5xFwVZ8gcMpPMUbL4l9gd+dG+EUQMBHAguw2m4T4EpgASOYSl4gkxjM33ExG8EEqBJBBSgSwQUOSZQiUCRRmoBLolQBm8TRBDiclsBX/K3TNDWA939r7tTSaDVwqxZGHluAAhRrTX70zUeyK954HmdXvBZgCVA6AIWuX2fZ/dXLdK8LOI8tQAEK1duj3XNeAq8FWAKUDsCs8fyzMyBLOgNcTkvANQIK+TF5C4SAJXDugKsDrt1RYAmE4CxQJOD9Y8JgWSDw2bN8cGRUxy1wL2u+P6dEkuqjvHAK/EuorojUyhLgCWSpDi4ObAFWZvKR9X4qyAAAAABJRU5ErkJggg==" Reference="aGeB0F235EyAKE6OUYFU6Q/oPNaAPrL3kW2IySWwR-2_g" Selector="&lt;wnd app='soffice.bin' cls='SALFRAME' title='* LibreOffice Writer' /&gt;" Version="V2">
+      <TargetApp.Arguments>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">"\"" + Filepath + "\" --norestore --nofirststartwizard"</p:CSharpValue>
+        </p:InArgument>
+      </TargetApp.Arguments>
+      <TargetApp.FilePath>
+        <p:InArgument x:TypeArguments="x:String">
+          <p:CSharpValue x:TypeArguments="x:String">LibreOfficeAppPath</p:CSharpValue>
+        </p:InArgument>
+      </TargetApp.FilePath>
+      <imageRef attrName="InformativeScreenshot" originalValue="042ade839caa858d358314b65e48e889.png" xmlns="">0Hh_LzMKPsUq5Dj64NQt_3A</imageRef>
+    </TargetApp>
+    <scg:List x:TypeArguments="ObjectRepositoryVariableData" x:Key="Variables" Capacity="1">
+      <ObjectRepositoryVariableData Name="Filepath" />
+    </scg:List>
+  </ObjectRepositoryScreenData.Data>
+</ObjectRepositoryScreenData>

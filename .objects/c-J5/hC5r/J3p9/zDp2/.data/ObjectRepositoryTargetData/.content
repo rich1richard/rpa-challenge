@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="B7GO2IH7W0eK9lBwJ4drgQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="youtube.com/watch" CVScreenId="829148ae-7fa5-4be7-802a-d0ccb7710bbb" CvType="AnyWordGroup" DesignTimeRectangle="134, 942, 252, 19" FullSelectorArgument="&lt;webctrl parentid='title' tag='YT-FORMATTED-STRING' /&gt;" Guid="ac347bdc-a987-4ed8-b547-f71681170953" ScopeSelectorArgument="&lt;html app='chrome.exe' title='Adele - Hello (Official Music Video) - YouTube' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <TargetAnchorable.Anchors>
+        <scg:List x:TypeArguments="ITarget" Capacity="4">
+          <Target CVScreenId="829148ae-7fa5-4be7-802a-d0ccb7710bbb" CvElementArea="274, 970, 82, 33" CvTextArea="289, 979, 52, 12" CvTextArgument="Subscribe" CvType="Button" DesignTimeRectangle="277, 972, 76, 29" FullSelectorArgument="&lt;webctrl class='yt-spec-touch-feedback-shape__fill' parentid='subscribe-button-shape' tag='DIV' /&gt;" Guid="6f406643-ee2f-4015-a8d7-05c5ff970e4f" SearchSteps="Selector, CV" />
+        </scg:List>
+      </TargetAnchorable.Anchors>
+      <imageRef attrName="InformativeScreenshot" originalValue="e84135907b9d995e8ed1109feb497593.png" xmlns="">0OWjP6yoaMU-_xHvxUxqk-g</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">GetText</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

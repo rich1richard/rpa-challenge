@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ObjectRepositoryTargetData ContentHash="4eI1ye90e0OE7o93QVLAZQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+  <ObjectRepositoryTargetData.Data>
+    <TargetAnchorable x:Key="TargetAnchorable" BrowserURL="acme-test.uipath.com/invoices/search-by-number/681067" CVScreenId="63192d63-880c-40a2-a959-2370f7b159cd" CvElementArea="510, 308, 917, 30" CvType="InputBox" DesignTimeRectangle="571, 317, 41, 12" ElementType="Text" FullSelectorArgument="&lt;webctrl aaname='Invoices' tag='A' /&gt;" Guid="53cd49d9-8ddf-4f75-82f9-389760bda2e8" ScopeSelectorArgument="&lt;html app='chrome.exe' title='ACME System 1 - Search Results' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+      <imageRef attrName="InformativeScreenshot" originalValue="dcbc46f9288189e7846ddd582b3ede8d.png" xmlns="">09VIkbtSw4EiaRPXHVX73ag</imageRef>
+    </TargetAnchorable>
+    <x:String x:Key="ActivityType">Click</x:String>
+  </ObjectRepositoryTargetData.Data>
+</ObjectRepositoryTargetData>

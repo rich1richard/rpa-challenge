@@ -1,0 +1,17 @@
+﻿{
+  "Name": "Invoices_link",
+  "Type": "Element",
+  "TaxonomyType": "Label",
+  "Id": "MhBoA5L9A0qBImaLnFiIeg",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/MhBoA5L9A0qBImaLnFiIeg",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/-R9PvFjpo02ocXSJnSLrgg",
+  "Created": "2025-07-23T15:25:31.7489249Z",
+  "Updated": "2025-07-23T15:25:48.1975649Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ],
+  "UpdatedBy": [
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

@@ -1,0 +1,13 @@
+﻿{
+  "Name": "Validate the folder",
+  "Type": "Element",
+  "Id": "jWTh7ncr2UGHd45cfid_aw",
+  "Reference": "aGeB0F235EyAKE6OUYFU6Q/jWTh7ncr2UGHd45cfid_aw",
+  "ParentRef": "aGeB0F235EyAKE6OUYFU6Q/oPNaAPrL3kW2IySWwR-2_g",
+  "Created": "2025-09-04T14:27:04.5866475Z",
+  "Updated": "2025-09-04T14:27:04.5866475Z",
+  "CreatedBy": [
+    "UiPath.UIAutomationCore, Version=25.10.4.0, Culture=neutral, PublicKeyToken=null",
+    "UiPath.Platform, Version=25.4.0.0, Culture=neutral, PublicKeyToken=null"
+  ]
+}

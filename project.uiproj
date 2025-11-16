@@ -1,0 +1,6 @@
+{
+  "Name": "RPA Challenge",
+  "ProjectType": "Process",
+  "Description": "RPA Challenge to learn new concepts",
+  "MainFile": "Main.xaml"
+}
