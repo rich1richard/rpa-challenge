@@ -115,7 +115,7 @@
       <AssemblyReference>System.IO.FileSystem.DriveInfo</AssemblyReference>
     </sco:Collection>
   </TextExpression.ReferencesForImplementation>
-  <Sequence DisplayName="FillForm" sap:VirtualizedContainerService.HintSize="1220,3060" sap2010:WorkflowViewState.IdRef="Sequence_1">
+  <Sequence DisplayName="FillForm" sap:VirtualizedContainerService.HintSize="1184,2811" sap2010:WorkflowViewState.IdRef="Sequence_1">
     <Sequence.Variables>
       <Variable x:TypeArguments="x:String" Name="Filepath" />
       <Variable x:TypeArguments="x:String" Name="Dataset" />
@@ -139,7 +139,7 @@
               </OutArgument>
             </ui:AssignOperation.To>
             <ui:AssignOperation.Value>
-              <InArgument x:TypeArguments="x:String">sequences\\libre_office\\Fiche Instruction.odt</InArgument>
+              <InArgument x:TypeArguments="x:String">sequences\\libre_office\\Fiche Candidat.odt</InArgument>
             </ui:AssignOperation.Value>
           </ui:AssignOperation>
           <ui:AssignOperation sap2010:WorkflowViewState.IdRef="AssignOperation_2">
@@ -199,13 +199,13 @@
         </InArgument>
       </ui:ReadRange.WorkbookPath>
     </ui:ReadRange>
-    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For each row of the dataset, create a new file from the template" sap:VirtualizedContainerService.HintSize="556,2675" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
+    <ui:ForEachRow ColumnNames="{x:Null}" CurrentIndex="{x:Null}" DisplayName="For each row of the dataset, create a new file from the template" sap:VirtualizedContainerService.HintSize="556,2426" sap2010:WorkflowViewState.IdRef="ForEachRow_1">
       <ui:ForEachRow.Body>
         <ActivityAction x:TypeArguments="sd:DataRow">
           <ActivityAction.Argument>
             <DelegateInArgument x:TypeArguments="sd:DataRow" Name="CurrentRow" />
           </ActivityAction.Argument>
-          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,2502" sap2010:WorkflowViewState.IdRef="Sequence_4">
+          <Sequence DisplayName="Body" sap:VirtualizedContainerService.HintSize="554,2253" sap2010:WorkflowViewState.IdRef="Sequence_4">
             <sap:WorkflowViewStateService.ViewState>
               <scg:Dictionary x:TypeArguments="x:String, x:Object">
                 <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -219,7 +219,7 @@
               </Assign.To>
               <Assign.Value>
                 <InArgument x:TypeArguments="x:String">
-                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_21">DestinationFolder + "\\" + "Fiche Instruction - " + CurrentRow["numeroDossier"].ToString() + ".odt"</CSharpValue>
+                  <CSharpValue x:TypeArguments="x:String" sap2010:WorkflowViewState.IdRef="CSharpValue`1_26">DestinationFolder + "\\" + "Fiche Candidat - " + CurrentRow["numeroDossier"].ToString() + ".odt"</CSharpValue>
                 </InArgument>
               </Assign.Value>
               <sap:WorkflowViewStateService.ViewState>
@@ -247,13 +247,13 @@
                 </scg:Dictionary>
               </sap:WorkflowViewStateService.ViewState>
             </ui:CopyFile>
-            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="LibreOffice Writer" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,2079" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Version="V2">
+            <uix:NApplicationCard AttachMode="ByInstance" CloseMode="IfOpenedByAppBrowser" DisplayName="LibreOffice Writer" HealingAgentBehavior="Job" sap:VirtualizedContainerService.HintSize="520,1830" sap2010:WorkflowViewState.IdRef="NApplicationCard_1" OpenMode="Always" ScopeGuid="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Version="V2">
               <uix:NApplicationCard.Body>
                 <ActivityAction x:TypeArguments="x:Object">
                   <ActivityAction.Argument>
                     <DelegateInArgument x:TypeArguments="x:Object" Name="WSSessionData" />
                   </ActivityAction.Argument>
-                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1787" sap2010:WorkflowViewState.IdRef="Sequence_2">
+                  <Sequence DisplayName="Do" sap:VirtualizedContainerService.HintSize="486,1538" sap2010:WorkflowViewState.IdRef="Sequence_2">
                     <sap:WorkflowViewStateService.ViewState>
                       <scg:Dictionary x:TypeArguments="x:String, x:Object">
                         <x:Boolean x:Key="IsExpanded">True</x:Boolean>
@@ -291,7 +291,7 @@
                             </sap:WorkflowViewStateService.ViewState>
                             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type the template to replace" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_1" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Version="V4">
                               <uix:NTypeInto.Target>
-                                <uix:TargetAnchorable CVScreenId="6907b93c-7cd2-4293-a0f1-12ce2d997de0" ContentHash="lCArZrWgAEq4hqD6Vk7abw" CvElementArea="86, 44, 473, 26" CvType="InputBox" DesignTimeRectangle="87, 46, 453, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='Find:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Find:' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="117ae13a-84d4-4787-87cc-8361479370a5" InformativeScreenshot="df2b7519b43dcdacd9947bad79f8325b.png" IsResponsive="True" Reference="aGeB0F235EyAKE6OUYFU6Q/_CiAKiy91EabGKUbWnqOSw" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                <uix:TargetAnchorable CVScreenId="6907b93c-7cd2-4293-a0f1-12ce2d997de0" ContentHash="ockNkuVBJEeI5R4BqvCITg" CvElementArea="86, 44, 473, 26" CvType="InputBox" DesignTimeRectangle="87, 46, 453, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='Find:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Find:' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="117ae13a-84d4-4787-87cc-8361479370a5" InformativeScreenshot="428c41360198a8203a472219a80c960e.png" IsResponsive="True" Reference="aGeB0F235EyAKE6OUYFU6Q/_CiAKiy91EabGKUbWnqOSw" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                   <uix:TargetAnchorable.Anchors>
                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                       <uix:Target CVScreenId="6907b93c-7cd2-4293-a0f1-12ce2d997de0" CvTextArea="27, 51, 28, 12" CvTextArgument="Find:" CvType="Text" DesignTimeRectangle="28, 49, 46, 16" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Find:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Find:' /&gt;" Guid="05511462-8f85-463d-9338-c7453a492d26" SearchSteps="FuzzySelector, CV" />
@@ -323,7 +323,7 @@
                             </uix:NTypeInto>
                             <uix:NTypeInto ActivateBefore="True" ClickBeforeMode="Single" ClipboardMode="Never" DisplayName="Type the value to replace with" EmptyFieldMode="SingleLine" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,288" sap2010:WorkflowViewState.IdRef="NTypeInto_2" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Version="V4">
                               <uix:NTypeInto.Target>
-                                <uix:TargetAnchorable CVScreenId="62935539-f80d-4b01-9fe8-aa693b4d8b6b" ContentHash="El7Tz_-6AUqgiRAKBV2Hvw" CvElementArea="85, 140, 471, 25" CvType="InputBox" DesignTimeRectangle="87, 142, 453, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='Replace:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Replace:' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="5a818254-dc73-4ba1-92a9-9b4e74a2736a" InformativeScreenshot="1f91771bc6107d56a2caf1156c10ea2c.png" IsResponsive="True" Reference="aGeB0F235EyAKE6OUYFU6Q/PfzdJ6Ua00eEP0L-YvNPaQ" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
+                                <uix:TargetAnchorable CVScreenId="62935539-f80d-4b01-9fe8-aa693b4d8b6b" ContentHash="WAW-eXOBnk24eMc71lWk5Q" CvElementArea="85, 140, 471, 25" CvType="InputBox" DesignTimeRectangle="87, 142, 453, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='Replace:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Replace:' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="5a818254-dc73-4ba1-92a9-9b4e74a2736a" InformativeScreenshot="2e3042b594050ef64fbf9b7c6b6f2aa0.png" IsResponsive="True" Reference="aGeB0F235EyAKE6OUYFU6Q/PfzdJ6Ua00eEP0L-YvNPaQ" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
                                   <uix:TargetAnchorable.Anchors>
                                     <scg:List x:TypeArguments="uix:ITarget" Capacity="1">
                                       <uix:Target CVScreenId="62935539-f80d-4b01-9fe8-aa693b4d8b6b" CvTextArea="27, 147, 47, 15" CvTextArgument="Replace:" CvType="Text" DesignTimeRectangle="28, 145, 46, 16" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Replace:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Replace:' /&gt;" Guid="645e5753-7dec-480e-ae37-a10c48e2083a" SearchSteps="FuzzySelector, CV" />
@@ -355,7 +355,7 @@
                             </uix:NTypeInto>
                             <uix:NClick ActivateBefore="True" ClickType="Single" DisplayName="Replace all the instances" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="416,218" sap2010:WorkflowViewState.IdRef="NClick_1" KeyModifiers="None" MouseButton="Left" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Version="V4">
                               <uix:NClick.Target>
-                                <uix:TargetAnchorable CVScreenId="f0a1e14c-b679-49e2-bf40-fa957d34f8f4" ContentHash="IVAOQygcz0Gn9YBc73k7vA" CvElementArea="458, 186, 96, 30" CvTextArea="476, 195, 59, 15" CvTextArgument="Replace All" CvType="Button" DesignTimeRectangle="458, 186, 96, 30" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Replace All' role='push button' /&gt;" Guid="a00d91af-de47-4414-8347-204e6df8881a" InformativeScreenshot="4690e6aeaa3039bc3a98d64f441c9b7e.png" Reference="aGeB0F235EyAKE6OUYFU6Q/NeBCBIn3SUSqNvseE2nSSg" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
+                                <uix:TargetAnchorable CVScreenId="f0a1e14c-b679-49e2-bf40-fa957d34f8f4" ContentHash="OHBksDeTrECi8ZQrpTmbjQ" CvElementArea="458, 186, 96, 30" CvTextArea="476, 195, 59, 15" CvTextArgument="Replace All" CvType="Button" DesignTimeRectangle="458, 186, 96, 30" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Replace All' role='push button' /&gt;" Guid="a00d91af-de47-4414-8347-204e6df8881a" InformativeScreenshot="f573843851c56db358f1b3275e06b690.png" Reference="aGeB0F235EyAKE6OUYFU6Q/NeBCBIn3SUSqNvseE2nSSg" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None" />
                               </uix:NClick.Target>
                               <uix:NClick.VerifyOptions>
                                 <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
@@ -389,25 +389,7 @@
                         </scg:Dictionary>
                       </sap:WorkflowViewStateService.ViewState>
                     </ui:ForEach>
-                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Close the replacer" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,249" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Shortcuts="[d(hk)][k(esc)][u(hk)]" Version="V4">
-                      <uix:NKeyboardShortcuts.VerifyOptions>
-                        <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
-                          <uix:VerifyExecutionOptions.Retry>
-                            <InArgument x:TypeArguments="x:Boolean" />
-                          </uix:VerifyExecutionOptions.Retry>
-                          <uix:VerifyExecutionOptions.Timeout>
-                            <InArgument x:TypeArguments="x:Double" />
-                          </uix:VerifyExecutionOptions.Timeout>
-                        </uix:VerifyExecutionOptions>
-                      </uix:NKeyboardShortcuts.VerifyOptions>
-                      <sap:WorkflowViewStateService.ViewState>
-                        <scg:Dictionary x:TypeArguments="x:String, x:Object">
-                          <x:Boolean x:Key="IsExpanded">True</x:Boolean>
-                          <x:Boolean x:Key="IsPinned">False</x:Boolean>
-                        </scg:Dictionary>
-                      </sap:WorkflowViewStateService.ViewState>
-                    </uix:NKeyboardShortcuts>
-                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DisplayName="Save the file" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,242" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_3" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Shortcuts="[d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V4">
+                    <uix:NKeyboardShortcuts ActivateBefore="True" ClickBeforeMode="None" DelayBetweenShortcuts="0.8" DisplayName="Close the replacer and save" HealingAgentBehavior="SameAsCard" sap:VirtualizedContainerService.HintSize="452,242" sap2010:WorkflowViewState.IdRef="NKeyboardShortcuts_4" ScopeIdentifier="0ad22a9e-6a16-46c8-9cf3-f733217b10f8" Shortcuts="[d(hk)][k(Esc)][u(hk)][d(hk)][d(ctrl)]s[u(ctrl)][u(hk)]" Version="V4">
                       <uix:NKeyboardShortcuts.VerifyOptions>
                         <uix:VerifyExecutionOptions DisplayName="{x:Null}" Mode="Appears">
                           <uix:VerifyExecutionOptions.Retry>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="IVAOQygcz0Gn9YBc73k7vA" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="OHBksDeTrECi8ZQrpTmbjQ" Reference="aGeB0F235EyAKE6OUYFU6Q/NeBCBIn3SUSqNvseE2nSSg" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="f0a1e14c-b679-49e2-bf40-fa957d34f8f4" CvElementArea="458, 186, 96, 30" CvTextArea="476, 195, 59, 15" CvTextArgument="Replace All" CvType="Button" DesignTimeRectangle="458, 186, 96, 30" ElementType="Button" FullSelectorArgument="&lt;ctrl name='Replace All' role='push button' /&gt;" Guid="a00d91af-de47-4414-8347-204e6df8881a" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="Selector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
-      <imageRef attrName="InformativeScreenshot" originalValue="4690e6aeaa3039bc3a98d64f441c9b7e.png" xmlns="">0ZdW3LBSJc0eOcNh2ygHd3A</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="f573843851c56db358f1b3275e06b690.png" xmlns="">0Ml5Ktgvkv02EURGZsnBuEw</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">Click</x:String>
   </ObjectRepositoryTargetData.Data>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-16"?>
-<ObjectRepositoryTargetData ContentHash="El7Tz_-6AUqgiRAKBV2Hvw" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+<ObjectRepositoryTargetData ContentHash="WAW-eXOBnk24eMc71lWk5Q" Reference="aGeB0F235EyAKE6OUYFU6Q/PfzdJ6Ua00eEP0L-YvNPaQ" xmlns="http://schemas.uipath.com/workflow/activities/uix" xmlns:scg="clr-namespace:System.Collections.Generic;assembly=System.Private.CoreLib" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
   <ObjectRepositoryTargetData.Data>
     <TargetAnchorable x:Key="TargetAnchorable" CVScreenId="62935539-f80d-4b01-9fe8-aa693b4d8b6b" CvElementArea="85, 140, 471, 25" CvType="InputBox" DesignTimeRectangle="87, 142, 453, 22" ElementType="InputBox" FuzzySelectorArgument="&lt;ctrl name='Replace:' role='combo box' matching:name='fuzzy' fuzzylevel:name='0.0' /&gt;&lt;ctrl name='Replace:' role='editable text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' /&gt;" Guid="5a818254-dc73-4ba1-92a9-9b4e74a2736a" IsResponsive="True" ScopeSelectorArgument="&lt;wnd app='soffice.bin' cls='SALSUBFRAME' title='Find and Replace' /&gt;" SearchSteps="FuzzySelector, CV" Version="V6" Visibility="Interactive" WaitForReadyArgument="None">
       <TargetAnchorable.Anchors>
@@ -7,7 +7,7 @@
           <Target CVScreenId="62935539-f80d-4b01-9fe8-aa693b4d8b6b" CvTextArea="27, 147, 47, 15" CvTextArgument="Replace:" CvType="Text" DesignTimeRectangle="28, 145, 46, 16" ElementType="Text" FuzzySelectorArgument="&lt;ctrl name='Replace:' role='text' automationid='' matching:name='fuzzy' fuzzylevel:name='0.0' matching:automationid='fuzzy' fuzzylevel:automationid='0.0' check:text='Replace:' /&gt;" Guid="645e5753-7dec-480e-ae37-a10c48e2083a" SearchSteps="FuzzySelector, CV" />
         </scg:List>
       </TargetAnchorable.Anchors>
-      <imageRef attrName="InformativeScreenshot" originalValue="1f91771bc6107d56a2caf1156c10ea2c.png" xmlns="">0o7q5wTf5f0WYBZGv8ntruA</imageRef>
+      <imageRef attrName="InformativeScreenshot" originalValue="2e3042b594050ef64fbf9b7c6b6f2aa0.png" xmlns="">0ODD31qhaIE-KVbhWiUpjog</imageRef>
     </TargetAnchorable>
     <x:String x:Key="ActivityType">TypeInto</x:String>
   </ObjectRepositoryTargetData.Data>
